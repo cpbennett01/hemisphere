@@ -1,0 +1,23 @@
+@font-face {
+    font-family: altehaas;
+    src: url(AlteHaasGroteskRegular\ copy.ttf);
+}
+
+.title {
+    font-family: "altehaas";
+    font-size: 50px;
+    color: gray;
+    margin-left: 85px;
+    margin-top: 200px;
+}
+
+body {
+    background-image: url(folder.gif);
+    background-size: cover;
+}
+
+.body-text {
+    font-family: "altehaas";
+    color: slategray;
+    margin-left: 85px;
+}
