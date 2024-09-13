@@ -1,23 +1,86 @@
 @font-face {
-    font-family: altehaas;
-    src: url(AlteHaasGroteskRegular\ copy.ttf);
+    font-family: "dogica";
+    src: url(dogica\ copy.ttf);
 }
 
-.title {
-    font-family: "altehaas";
-    font-size: 50px;
-    color: gray;
-    margin-left: 85px;
-    margin-top: 200px;
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
 }
 
 body {
-    background-image: url(folder.gif);
-    background-size: cover;
+    font-family: "dogica";
+    font-size: 10px;
+    color: rgb(0, 0, 0);
 }
 
-.body-text {
-    font-family: "altehaas";
-    color: slategray;
-    margin-left: 85px;
+a {
+    text-decoration: none;
+    color: black;
 }
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    gap: 8%;
+}
+
+    .top-container {
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        height: 10%;
+        width: 100%;
+    }
+
+        .left {
+            text-align: center;
+            border: 1px solid;
+            width: 18%;
+            align-content: center;
+        }
+
+        .nav-container {
+        border: 1px solid;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 80%;
+        }
+
+        .nav-item {
+        border: 1px solid;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+        align-content: center;
+        }
+
+    .bottom-container {
+        
+        display: flex;
+        width: 100%;
+        margin: 10px;
+        height: 90%;
+        border: 1px solid;
+        padding: 10px;
+        
+    }
+
+        .inline {
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+        border: 1px;
+        }
+
+
