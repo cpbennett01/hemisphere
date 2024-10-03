@@ -25,15 +25,15 @@ a {
 .main-container {
     height: 100vh;
     display: flex;
-    padding: 10px;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255)
 }
 
     .top-container {
         margin: 10px;
         display: flex;
-        flex-wrap: wrap;
         gap: 2%;
         height: 10%;
         width: 100%;
@@ -48,9 +48,8 @@ a {
 
         .nav-container {
         border: 1px solid;
-        padding: 5px;
+        padding: 10px;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 20px;
         width: 80%;
@@ -69,9 +68,11 @@ a {
         display: flex;
         width: 100%;
         margin: 10px;
-        height: 90%;
+        height: 80%;
         border: 1px solid;
         padding: 10px;
+        flex-wrap: wrap;
+        
         
     }
 
@@ -80,6 +81,10 @@ a {
         padding: 10px;
         display: inline-block;
         border: 1px;
+        
         }
 
+        .list {
+            justify-content: center;
+        }
 
